@@ -1,0 +1,166 @@
+#headtext{
+    text-align: center;
+}
+
+#head{
+    background-color: rgba(252, 252, 252, 0.377);
+    width: 40%;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 100px #ff0000,
+    0 0 150px #ff0000;
+}
+
+body{
+    background-image: url("IIIT A 2021-25.jpg");
+    background-size: cover;
+    background-position: 48%;
+}
+
+.logo{
+    width: 2rem;
+    height: 2rem;
+    margin: 2em 0.4em;
+    margin-bottom: 0.5em;
+    border-radius: 20%;
+}
+
+.subhead, .name, .details{
+    text-align: center;
+}
+
+#logos{
+    display: inline-block;
+    margin: 5px;
+    
+
+}
+
+
+#pfp
+{
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#box{
+    margin: 40px auto;
+    padding: 1em;
+    width: 20%;
+    background-color: rgba(252, 252, 252, 0.377);
+    border-radius: 2em;
+    backdrop-filter: blur(2px);
+    transition: 1s;
+}
+
+.subhead{   
+    width: 50%;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: auto;
+}
+
+.name{
+    border-radius: 0.5em;
+    width: 70%;
+    margin: auto;
+    backdrop-filter: blur(2px);
+}
+
+#head{
+    margin-top: 2em;
+}
+
+.aboutme{
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 1em;
+    padding: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    text-align: center;
+}
+
+#edud{
+    background-color: rgba(245, 245, 245, 0.288);
+    text-align: center;
+    margin-top: 1.5em;
+    padding: 0.1em;
+    width: 60%;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 1em;
+    box-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #0fa,
+    0 0 80px #0fa;
+}
+
+#edud h2{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin:0px;
+}
+
+#box:hover{
+    transform: translate(0,-20px)  scale(1.15) skewX(-2deg) skewy(2deg);
+    box-shadow: 40px 12px 2px 1px rgba(0, 0, 0, 0.377);
+    box-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 90px #0fa,
+    0 0 100px #0fa,
+    0 0 150px #0fa;
+    backdrop-filter: blur(5px);
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    box-shadow: 
+    0 0 4px rgb(255, 196, 0),
+    0 0 11px rgb(255, 196, 0),
+    0 0 19px rgb(255, 196, 0),
+    0 0 40px rgb(255, 196, 0),
+    0 0 80px rgb(255, 196, 0),
+    0 0 90px rgb(255, 196, 0),
+    0 0 100px rgb(255, 196, 0),
+    0 0 150px rgb(255, 196, 0);
+}
+
+.subhead h2{
+    text-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #0fa,
+    0 0 80px #0fa,
+    0 0 90px #0fa,
+    0 0 100px #0fa,
+    0 0 150px #0fa;
+}
+
+.name h2{
+    text-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 30px rgb(0, 174, 255),
+    0 0 80px rgb(0, 174, 255),
+    0 0 90px rgb(0, 174, 255),
+    0 0 100px rgb(0, 174, 255),
+    0 0 150px rgb(0, 174, 255);
+}
+
+#pfp:hover{
+    transform: scale(1.2);
+}
