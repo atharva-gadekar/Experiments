@@ -1,3 +1,6 @@
+const music = new Audio("./Resources/bgsong.mp3");
+music.play();
+
 document.body.style.overflow= "hidden";
 document.getElementById("main0").style.opacity = "0";
 setTimeout(()=>{
@@ -8,7 +11,7 @@ setTimeout(()=>{
 
     let vi = new Audio('/Resources/hbd.mp3');
     vi.play();
-},000);
+},1000);
 
 window.addEventListener("scroll", function() {showFunction()});
 
@@ -59,24 +62,24 @@ function showFunction() {
 
 if(document.getElementById("main16").classList.contains("visible"))
 {
-    document.body.style.backgroundImage = "url('/Resources/Haikyuu.jpg')";
+    document.body.style.backgroundImage = "url('./Resources/Haikyuu.jpg')";
 }
 
 if(document.getElementById("main18").classList.contains("visible"))
 {
-    document.body.style.backgroundImage = "url('/Resources/bgpic3.jpg')";
+    document.body.style.backgroundImage = "url('./Resources/bgpic3.jpg')";
 }
 
 if(document.getElementById("main20").classList.contains("visible"))
 {
-    document.body.style.backgroundImage = "url('/Resources/bgpic5.jpg')";
+    document.body.style.backgroundImage = "url('./Resources/bgpic5.jpg')";
 }
 
 if(document.getElementById("main17").classList.contains("visible"))
 {
     if(audio[1]==1)
     {
-    let vi = new Audio('/Resources/vishesh.aac');
+    let vi = new Audio('./Resources/vishesh.aac');
     vi.play();
     audio[1]=0
     }
@@ -86,7 +89,7 @@ if(document.getElementById("main18").classList.contains("visible"))
 {
     if(audio[2]==1)
     {
-    let vi = new Audio('/Resources/wael.mp3');
+    let vi = new Audio('./Resources/wael.mp3');
     vi.play();
     audio[2]=0
     }
@@ -96,7 +99,7 @@ if(document.getElementById("main19").classList.contains("visible"))
 {
     if(audio[3]==1)
     {
-    let vi = new Audio('/Resources/anjali.ogg');
+    let vi = new Audio('./Resources/anjali.ogg');
     vi.play();
     audio[3]=0
     }
@@ -106,7 +109,7 @@ if(document.getElementById("main20").classList.contains("visible"))
 {
     if(audio[4]==1)
     {
-    let vi = new Audio('/Resources/ananya.mp3');
+    let vi = new Audio('./Resources/ananya.mp3');
     vi.play();
     audio[4]=0
     }
@@ -116,7 +119,7 @@ if(document.getElementById("main21").classList.contains("visible"))
 {
     if(audio[5]==1)
     {
-    let vi = new Audio('/Resources/atharva.ogg');
+    let vi = new Audio('./Resources/atharva.ogg');
     vi.play();
     audio[5]=0
     }
@@ -126,7 +129,7 @@ if(document.getElementById("main22").classList.contains("visible"))
 {
     if(audio[6]==1)
     {
-    let vi = new Audio('/Resources/vipul.ogg');
+    let vi = new Audio('./Resources/vipul.ogg');
     vi.play();
     audio[6]=0
     }
@@ -136,7 +139,7 @@ if(document.getElementById("main23").classList.contains("visible"))
 {
     if(audio[7]==1)
     {
-    let vi = new Audio('/Resources/aryan.mp3');
+    let vi = new Audio('./Resources/aryan.mp3');
     vi.play();
     audio[7]=0
     }
@@ -146,7 +149,7 @@ if(document.getElementById("main24").classList.contains("visible"))
 {
     if(audio[8]==1)
     {
-    let vi = new Audio('/Resources/Aman.ogg');
+    let vi = new Audio('./Resources/Aman.ogg');
     vi.play();
     audio[8]=0
     }
@@ -156,7 +159,7 @@ if(document.getElementById("main25").classList.contains("visible"))
 {
     if(audio[9]==1)
     {
-    let vi = new Audio('/Resources/arsh.aac');
+    let vi = new Audio('./Resources/arsh.aac');
     vi.play();
     audio[9]=0
     }
@@ -166,7 +169,7 @@ if(document.getElementById("main26").classList.contains("visible"))
 {
     if(audio[10]==1)
     {
-    let vi = new Audio('/Resources/sumit.mpeg');
+    let vi = new Audio('./Resources/sumit.mpeg');
     vi.play();
     music.volume = 0.05;
     setTimeout(()=>{music.volume = 0.1;},30000)
@@ -178,7 +181,7 @@ if(document.getElementById("main27").classList.contains("visible"))
 {
     if(audio[11]==1)
     {
-    let vi = new Audio('/Resources/priya.ogg');
+    let vi = new Audio('./Resources/priya.ogg');
     vi.play();
     audio[11]=0
     }
@@ -188,7 +191,7 @@ if(document.getElementById("main28").classList.contains("visible"))
 {
     if(audio[12]==1)
     {
-    let vi = new Audio('/Resources/harsh.ogg');
+    let vi = new Audio('./Resources/harsh.ogg');
     vi.play();
     audio[12]=0
     }
@@ -198,7 +201,7 @@ if(document.getElementById("main29").classList.contains("visible"))
 {
     if(audio[13]==1)
     {
-    let vi = new Audio('/Resources/mehak.mpeg');
+    let vi = new Audio('./Resources/mehak.mpeg');
     vi.play();
     audio[13]=0
     }
@@ -208,7 +211,7 @@ if(document.getElementById("main30").classList.contains("visible"))
 {
     if(audio[14]==1)
     {
-    let vi = new Audio('/Resources/morty.ogg');
+    let vi = new Audio('./Resources/morty.ogg');
     vi.play();
     audio[14]=0
     }
@@ -331,7 +334,5 @@ function caller(i){
     // }
     
     
-var music = new Audio('/Resources/bgsong.mp3');
-music.play();
-music.volume = 1;
+
 
