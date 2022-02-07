@@ -1,0 +1,99 @@
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+body{
+    height: 4500vh;
+    background-image: url("/Resources/bgpic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    transition: background-image 2s;
+    /* overflow: hidden; */
+}
+
+.box{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imgs{
+    height: 60vh;
+}
+
+.img-cont{
+    padding: 2vw;
+}
+
+.vid{
+    height: 70vh;
+}
+
+.header{
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.712);
+      backdrop-filter: blur(4px);
+      padding: 2vw;
+      padding-left: 4vw;
+      padding-right: 4vw;
+      border-radius: 1.5vw;
+      font-weight: 700;
+      font-size: 4.5vw;
+      position: absolute;
+}
+
+  .fade{
+      animation: fadeOut 2s;
+  }
+
+ .hidden{
+     display: none;
+ }
+
+  .visible{
+      display: block;
+      animation: fadeIn 2s;
+  }
+
+ 
+ @keyframes fadeIn { /* from 0 to full opacity */
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
+
+ @keyframes fadeOut { /* from 0 to full opacity */
+    from {opacity: 1;}
+    to {opacity: 0;}
+ }
+
+.quote{
+    background-color: rgba(255, 255, 255, 0.692);
+    backdrop-filter: blur(2px);
+    color: white;
+    margin: 4vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 4vw;
+    padding-right: 5vw;
+    border-radius: 1.5vw;
+    font-weight: 700;
+    font-size: 5vw;
+    position: absolute;
+}
+
+.msg{
+    font-size: 4vw;
+}
+
+.name{
+    margin-top: 2vw;
+    float: right;
+    font-size: 3vw;
+}

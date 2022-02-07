@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Hp';
+      src:url('./Resources/Hp2.ttf')  format('truetype');
+      font-style: normal;
+      font-weight: 400;
+  }
+
+  body{
+    background-image: url("./Resources/bgpic4.jpg");
+    background-size: cover;
+    background-position: 60%;
+    background-attachment: fixed;
+    zoom: 80%;
+    font-family: 'Lora', serif;
+    
+}
+
+h1{
+    font-family: 'Hp2';
+    font-weight: 400;
+    margin: 0;
+}
+
+.title{
+    margin-top: 0.2em;
+    text-align: center;
+    color: white;
+    font-size: 15vw;
+    font-family: "Hp";
+}
+
+#first-des{
+    margin-top: 1.5em;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.lined{
+    margin-top: 5vw;
+    text-align: center;
+}
+
+
+#line{
+    width: 110vw;
+}
+
+.title2{
+    margin-top: 0.5em;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    text-decoration: white underline;
+    font-family: "Hp";
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 5vw;
+    position: relative;
+}
+
+#photo{
+    width: 35vw;
+    border-radius: 1em;
+}
+
+#info{
+    width: 70vw;
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+    left: 30vw;
+}
+
+#sub-title{
+    margin-top: 0.2em;
+    /* text-align: center; */
+    color: white;
+    font-size: 8vw;
+    text-decoration: white underline;
+    font-family: "Hp";
+}
+
+#details{
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.534);
+    /* text-align: center; */
+    color: white;
+    font-size: 2.5vw;
+}
+
+
+#sort{
+    margin-left: 10vw;
+    padding-top: 0.1em;
+    margin-top: 2.5vw;
+    width: 20vw;
+    font-family: "Hp";
+    font-size: 5vw;
+}
+
+#housesd{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.house{
+    margin-top: 1vw;
+    text-align: center;
+    color: #ffd501;
+    font-size: 50px;
+}
+
+.himg{
+    width: 21vw;
+    height: 21vw;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.himg:hover{
+    transform: scale(1.1);
+}
+
+#g:hover{
+    box-shadow: 
+    0 0 10px #ff0000,
+    0 0 30px #ff0000,
+    0 0 80px #ff0000;
+}
+#r:hover{
+    box-shadow: 
+    0 0 10px #001aff,
+    0 0 30px #001aff,
+    0 0 80px #001aff;
+ }
+#h:hover{
+    box-shadow: 
+    0 0 10px #e5ff00,
+    0 0 30px #e5ff00,
+    0 0 80px #e5ff00;
+ }
+#s:hover{
+    box-shadow: 
+    0 0 10px #09ff00,
+    0 0 30px #09ff00,
+    0 0 80px #09ff00;
+}
+
+#hdes{
+    margin-top: 2vw;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 3vw;
+    text-align: center;
+    width: 80%;
+}
+
+#all-houses h1{
+    text-align: center;
+    color: white;
+    font-size: 170px;
+    margin: 0.2em;
+    /* text-decoration: white underline; */
+}
+
+.section{
+
+}
+
+@media only screen and (max-width: 768px) {
+    .title{
+        font-size: 22vw;
+    }
+
+    #first-des{
+        font-size: 5vw;
+    }
+
+    .title2{
+        font-size: 15vw;
+    }
+
+    #sub-title{
+        font-size: 10vw;
+    }
+
+    .lined{
+        margin-top: 10vw;
+    }
+
+    .himg{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .house{
+        margin: 7vw;
+    }
+
+    #photo{
+        width: 50vw;
+    }
+
+    #info{
+        width: 80vw;
+    }
+
+    #sub-title{
+        font-size: 15vw;
+    }
+    
+}
